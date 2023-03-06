@@ -1,0 +1,13 @@
+{
+  "name": "${containerWorkspaceFolderBasename}",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "vscode-icons-team.vscode-icons",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
