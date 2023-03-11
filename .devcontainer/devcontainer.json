@@ -1,0 +1,15 @@
+{
+  "name": "${containerWorkspaceFolderBasename}",
+  "dockerFile": "Dockerfile",
+  "context": ".",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "vscode-icons-team.vscode-icons",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "postCreateCommand": "npm ci --prefix ./acnft-m_block-chain-api-server"
+}
